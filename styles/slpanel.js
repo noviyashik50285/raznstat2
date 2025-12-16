@@ -1,0 +1,17 @@
+function openNavsl3() {
+    document.getElementById(
+        "myNavsl3").style.width = "100%";
+}
+function closeNavsl3() {
+    document.getElementById(
+        "myNavsl3").style.width = "0%";
+}
+
+function openNavsl4() {
+    document.getElementById(
+        "myNavsl4").style.width = "100%";
+}
+function closeNavsl4() {
+    document.getElementById(
+        "myNavsl4").style.width = "0%";
+}

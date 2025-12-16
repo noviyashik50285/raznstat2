@@ -1,0 +1,19 @@
+.tooltitle::after {
+content: "особый тип континентального магматизма";
+/* padding: 2px; */
+display: none;
+position: relative;
+/* top: -20px; */
+left: -200px;
+width: 180px;
+text-align: center;
+background-color: #fef4c5;
+border: 1px solid #d4b943;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+-ms-border-radius: 2px;
+border-radius: 2px;
+}
+.tooltitle:hover::after {
+display: block;
+}

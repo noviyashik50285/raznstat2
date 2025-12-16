@@ -1,0 +1,131 @@
+@font-face { font-family: "AVFontimer"; src: url("fonts/AVFontimer.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+/* .font42 { font-family: "AVFontimer"; } */
+@font-face { font-family: "Czizh"; src: url("fonts/Czizh.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font111 { font-family: "Czizh"; }
+@font-face { font-family: "Vezitsa"; src: url("fonts/Vezitsa.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font69 { font-family: "Vezitsa"; }
+@font-face { font-family: "Xiomara"; src: url("fonts/Xiomara.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font710 { font-family: "Xiomara"; }
+@font-face { font-family: "Arlekino"; src: url("fonts/Arlekino.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font84 { font-family: "Arlekino"; }
+@font-face { font-family: "AmoreCTT"; src: url("fonts/AmoreCTT.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font810 { font-family: "AmoreCTT"; }
+@font-face { font-family: "CGTimesCyr"; src: url("fonts/CGTimesCyr.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font49 { font-family: "CGTimesCyr"; }
+@font-face { font-family: "Parisian"; src: url("fonts/Parisian.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font814 { font-family: "Parisian"; }
+@font-face { font-family: "Geisha"; src: url("fonts/Geisha.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font86 { font-family: "Geisha"; }
+@font-face { font-family: "RoundScript"; src: url("fonts/RoundScript.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font412 { font-family: "RoundScript"; }
+@font-face { font-family: "PastryChef"; src: url("fonts/PastryChef.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font28 { font-family: "PastryChef"; }
+@font-face { font-family: "ZingRust"; src: url("fonts/ZingRust.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.font35 { font-family: "ZingRust"; }
+
+body {
+/* font-family: system-ui, -apple-system, "Segoe UI", 
+Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", 
+Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
+"Segoe UI Symbol", "Noto Color Emoji"; */
+/* font-weight: 400; */
+margin: 0;
+color: #212529;
+background-color: #d4cfed;
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+}
+p{text-indent: 2rem;
+font-size: 24px;
+}
+/* .container {
+margin: .7rem; padding: 1.5rem;
+border: 1px solid #dee2e6;
+border-radius: 0.375rem;
+} */
+.tab {
+display: flex;
+flex-direction: column;
+}
+.tab-nav > input[type="radio"] {
+display: none;
+}
+.tab-content { 
+display: none;
+}
+#content-1:has(~ .tab-nav > #tab-btn-1:checked),
+#content-2:has(~ .tab-nav > #tab-btn-2:checked),
+#content-3:has(~ .tab-nav > #tab-btn-3:checked),
+#content-4:has(~ .tab-nav > #tab-btn-4:checked),
+#content-5:has(~ .tab-nav > #tab-btn-5:checked),
+#content-6:has(~ .tab-nav > #tab-btn-6:checked),
+#content-7:has(~ .tab-nav > #tab-btn-7:checked),
+#content-8:has(~ .tab-nav > #tab-btn-8:checked),
+#content-9:has(~ .tab-nav > #tab-btn-9:checked) {
+display: block;
+}
+.tab-nav {
+display: flex;
+flex-wrap: wrap;
+border-bottom: 1px solid #dee2e6;
+margin-bottom: 1rem;
+order: -1;
+}
+.tab-nav > label { font-size: 1.7rem; 
+font-family: AVFontimer;
+cursor: pointer;
+display: block;
+padding: 0.5rem 1rem;
+color: #0d6efd;
+text-decoration: none;
+background: 0 0;
+border: 1px solid transparent;
+margin-bottom: -1px;
+border-top-left-radius: 0.375rem;
+border-top-right-radius: 0.375rem;
+-webkit-appearance: button;
+transition: color .15s ease-in-out,background-color .15s 
+ease-in-out,border-color .15s ease-in-out;
+}
+.tab-nav > input[type="radio"]:checked + label {
+color: #000;
+background-color: #fff;
+border-color: #021528 #6c1c0a #fff;
+cursor: default;
+}
+
+.figur {
+display: inline-block;
+background: #a7e5ba;
+padding: 4px;
+margin: 0 .2em 0 0;
+vertical-align: top;
+float: left; 
+}
+figcaption { 
+text-align: center;
+}
+
+.kvadrkr { 
+background-color: red;
+}
+.kvadrzl { 
+background-color: yellow;
+}
+.kvadrgr { 
+background-color: green;
+}
+
+.lokerbi p{ font-size: 21px; }
+.loker2 p{ margin-left: 1rem; }
+.btn{color: red;}
+.btn:hover{color: green;}
+
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+

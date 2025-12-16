@@ -1,0 +1,36 @@
+.overlaysl {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1a6e1a;
+    overflow-x: hidden;
+    transition: .5s;
+}
+.overlaysl-content {
+    position: relative;
+    top: 2%;
+    width: 100%;
+    text-align: center;
+}
+.overlaysl a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.overlaysl a:hover,
+.overlaysl a:focus {
+    color: black;
+}
+.overlaysl .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 40px;
+color: red;
+z-index: 4;
+}
