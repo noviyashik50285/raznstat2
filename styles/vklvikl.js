@@ -43,11 +43,11 @@ if (elebl[0].style.fontFamily == "AVFontimer") {
 });
 
 const makekr = document.getElementById("makekr");
-var elekr = document.getElementsByClassName('font412');
+var elekr = document.getElementsByClassName('font111');
 makekr.addEventListener('click', function() {
 if (elekr[0].style.fontFamily == "AVFontimer") {
     for (var i = 0; i < elekr.length; i++ ) {
-        elekr[i].style.fontFamily = 'RoundScript';
+        elekr[i].style.fontFamily = 'Czizh';
     }
 } else {
     for (var i = 0; i < elekr.length; i++ ) {
