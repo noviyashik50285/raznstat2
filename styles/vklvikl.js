@@ -112,6 +112,20 @@ if (elelok1[0].style.fontFamily == "AVFontimer") {
 }
 });
 
+const makelok2 = document.getElementById("makelok2");
+var elelok2 = document.getElementsByClassName('font312');
+makelok2.addEventListener('click', function() {
+if (elelok2[0].style.fontFamily == "AVFontimer") {
+    for (var i = 0; i < elelok2.length; i++ ) {
+        elelok2[i].style.fontFamily = 'Goznak';
+    }
+} else {
+    for (var i = 0; i < elelok2.length; i++ ) {
+        elelok2[i].style.fontFamily = 'AVFontimer';
+    }    
+}
+});
+
 const makeam = document.getElementById("makeam");
 var eleam = document.getElementsByClassName('font412');
 makeam.addEventListener('click', function() {
